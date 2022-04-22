@@ -1,0 +1,349 @@
+
+@media screen and (max-width:768px) {
+
+    header {
+        height: 75px;
+    }
+    
+    header::after {
+        height: 80px;
+    }
+    header a.logo {
+        margin-top: 15px;
+        position: relative;
+        z-index: 2;
+        padding-left: 15px;
+    }
+    header a.logo img {
+        width: 135px;
+    }
+    header .icon {
+        position: fixed;
+        display: block;
+        cursor: pointer;
+        top: 35px;
+        right: 20px;
+        z-index: 2;
+        padding-left: 15px;
+        color: white;
+    }
+    
+
+    header nav ul li {
+        /* display: block; */
+        /* border-top: 1px solid white; */
+        border-bottom: 1px solid white;
+        /* padding-left: 0; */
+    }
+
+    nav {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 120px;
+        right: 170px;
+    }
+
+    nav ul {
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* width: 380px; */
+        width: 105vw;
+        height: 160px;
+    }
+
+
+
+
+    .showmenu {
+        display: block;
+    }
+
+
+/* --------------------------------------HERO */
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 100%;
+        height:  554px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+
+        .headerN1 {
+            font-weight: 800;
+            font-size: 28px;
+            line-height: 33px;
+        }
+
+        
+
+        .H1Container2 {
+            height: 30%;
+        }
+
+        .headerN2 {
+            height: auto;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 56px;
+            text-align: center;
+        }
+
+        .logoContainer {
+            margin: 0;
+            
+        }
+
+        .button {
+            width: 70px;
+        }
+
+/* -----------------------------WHY US */
+    .whyUs {
+        height: 1500px;
+    }
+
+    .container1 {
+        height: 15%;
+    }
+    
+    .H1whyU {
+        margin-top: 65px;
+    }
+
+    .oneStop {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .H2whyU {
+        margin: 0;
+    }
+    .success {
+        margin: 0;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .separatorMobile {
+        width: 100px;
+    }
+
+
+    .container2 {
+        height: 85%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+/* ################################################## */
+    .stiky {
+        position: fixed;
+        left: 0;
+        top: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 5px 0 0;
+        z-index: 5;
+    }
+    
+    .stiky::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 106px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .stiky .download {
+        position: fixed;
+        width: 300px;
+        height: 50px;
+        padding: 0;
+        display: block;
+        top: 90%;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        border: 2px solid white
+    }
+
+    /* ----------------------------PRODUCT DESCRIPTION */
+    .ProductD {
+        height: 700px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container4 {
+        margin: auto;
+    }
+    .container3 {
+        margin: 20px;
+    }
+    .secure {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .perfection {
+        font-size: 30px;
+        line-height: 35px;
+        /* margin: 0; */
+    }
+    
+    .test {
+        width: 350px;   
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    /* ---------------------------------------PRODUCT LINE */
+    .ProductL {
+        height: 1900px;
+    }
+    .container5 {
+        height: 15%;
+        text-align: center;
+        /* justify-content: center; */
+    }
+
+    .H1Product {
+        font-weight: 900;
+        font-size: 12px;
+        line-height: 19px;
+        margin: auto;
+        }
+
+    .H1Product2 {
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        }
+
+    .separatorMobile2 {
+        width: 120px;
+    }
+
+    .container6 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 85%;
+    }
+    
+    .container7 {
+        display: none;
+    }
+    /* ------------------------------------CONTACT */
+    /* .contact {
+        
+    } */
+    .container8 {
+        height: 25%;
+        justify-content: center;
+        /* margin: 30px 0; */
+    }
+
+    .H1Contact {
+        font-size: 11px;
+        line-height: 19px;
+        font-weight: 900;
+        width: 100%;
+        padding: 0;
+    }
+    .H1Contact2 {
+        font-size: 20px;
+        line-height: 28px;
+        width: 100%;
+    }
+
+    .feedback {
+        width: 60%;
+    }
+
+    
+    .container9 {
+        height: 25%;
+        
+    }
+
+    input[type=text] {
+        width: 340px;
+    }
+    input[type=email] {
+        width: 340px;
+    }
+
+    .container10 {
+        flex-direction: column;
+        height: 30%;
+    }
+
+    .separatorMobile3 {
+        width: 120px;
+    }
+
+    .form2, input {
+        width: 340px;
+        margin: auto;
+    }
+
+    .form3, select {
+        width: 340px;
+        margin: auto;
+    }
+
+    button {
+        width: 340px;
+    }
+
+    .white {
+        display: none;
+    }
+/* -------------------------------------EXTRA */
+.extra {
+    flex-direction: column;
+    height: 400px;
+    text-align: center;
+}
+
+
+.container13, img {
+    width: 300px;
+}
+
+/* -----------------------------------Footer */
+footer {
+    height: 400px;
+}
+.container15 {
+    text-align: center;
+}
+.end {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
+
+
+}
